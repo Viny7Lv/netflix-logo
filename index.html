@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Logo</title>
+    <style>
+        .container {
+            position: relative;
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            margin-top: 15px;
+            width: 456px;
+            height: 456px;
+            background-color: black;
+        }
+    
+        .bloco {
+            position: absolute;
+            left: 136px;
+            width: 66px;
+            height:338px;
+            background-color: #b20710;
+        }
+    
+        .bloco::before {
+            content: " ";
+            position: absolute;
+            left: 118px;
+            width: 66px;
+            height:338px;
+            background-color:#b20710;
+        }
+    
+        .bloco::after {
+            position: absolute;
+            content: " ";
+            background-color: rgb(0, 0, 0);
+            width: 230px;
+            height: 25px;
+            bottom: -14px;
+            left: -20px;
+            border-radius: 50%;
+        }
+    
+        span {
+            position: absolute;
+            background-color:#e50914;
+            width: 66px;
+            height: 336px;
+            left: 59.5px;
+            transform: skew(19.5deg);
+            box-shadow: 0 0 30px -4px rgba(0, 0, 0, 0.692);
+    
+        }
+    
+        .netflix-logo {
+            margin-top: 20px;
+        }
+    
+        h1 {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        footer {
+            background-color: #f4f4f4;
+            padding: 20px;
+            text-align: center;
+        }
+    
+    </style>
+</head>
+<body>
+    <h1>
+        My Netflix logo made in CSS
+    </h1>
+
+    <div class="container">
+        <div class="bloco">
+            <span>
+
+            </span>
+        </div>
+    </div>
+
+    <h1>
+        Netflix logo
+    </h1>
+
+    <div class="netflix-logo">
+        <img src="Netflix-logo.png" alt="netflix-logo">
+    </div>
+    <!DOCTYPE html>
+
+    <!-- Conteúdo do seu site -->
+    
+    <footer>
+        <p>Por favor, note que a representação da logo da Netflix neste site é uma recriação feita apenas para fins de aprendizado e prática de habilidades em HTML e CSS. Esta recriação não está associada à marca original da Netflix, e não deve ser interpretada como uma representação oficial da marca. Todos os direitos e propriedade intelectual da logo original pertencem à Netflix, Inc.</p>
+    </footer>
+
+</body>
+</html>
